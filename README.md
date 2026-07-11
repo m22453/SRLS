@@ -28,7 +28,7 @@ Put the datasets into the `data/` directory, then run:
 python main.py --dataset Scene15
 ```
 
-You can replace `Scene15` with other supported datasets such as `LandUse21`, `CUB`, `Yale`, or `Reuters`.
+You can replace `Scene15` with other supported datasets such as `CUB`, `Yale`, or `Reuters`.
 
 ## Citation
 
