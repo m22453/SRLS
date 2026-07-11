@@ -22,8 +22,6 @@ The learned representations are finally used for clustering with k-means.
 
 ## Usage
 
-Put the datasets into the `data/` directory, then run:
-
 ```bash
 python main.py --dataset Scene15
 ```
