@@ -1,0 +1,30 @@
+dataset: CUB
+
+encoder_dim:
+  - [ 1024, 1024, 1024, 1024, 256 ]
+  - [ 300, 1024, 1024, 1024, 256 ]
+use_layer_norm: False
+
+n_classes: 10
+mvrw_weights: [True, False]
+n_heads: 0
+ratio_nodes: 1.0
+# n_rw: 10
+# n_steps: 5
+# knn4mvrw: True
+# n_neibs: 25
+
+batch_size: 1024
+momentum: 0.98
+temperature: 0.5
+
+blr: 1.0e-3
+min_blr: 1.0e-3
+lr: 1.0e-3
+weight_decay: 0
+
+data_path: /root/user/cs_tcci_bairuina/code/mvdc-compare/DATAMAT/
+output_dir: results
+seed: 0
+epochs: 200
+
