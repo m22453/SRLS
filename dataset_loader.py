@@ -6,7 +6,7 @@ from scipy import sparse
 
 import sklearn.preprocessing as skp
 
-GLOBAL_PATH = "/root/user/cs_tcci_bairuina/code/mvdc-compare/DATAMAT/"
+GLOBAL_PATH = "./DATA/"
 def load_mat(args):
     data_X = []
     label_y = None
